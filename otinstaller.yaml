@@ -20,7 +20,7 @@ outputs:
 runtime:
   kind: docker
   # Filled in by the release workflow with the pushed image's digest.
-  image: ghcr.io/osintverse-community/eth-address@sha256:0000000000000000000000000000000000000000000000000000000000000000
+  image: ghcr.io/osintverse-community/eth-address@sha256:ebc35d50a9687e9fa73846f51c989551d8582b89a6da30f64f3b105d0d8eea40
   platforms: [linux/amd64, linux/arm64]
   command: ["eth-address", "{address}"]
   output_format: json
